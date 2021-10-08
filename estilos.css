@@ -1,0 +1,128 @@
+/* BARRA AZUL LETS CODERS + ENLACES   */
+nav {
+    background: blue;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px  40px;
+}
+
+.lestfondo {
+
+    width: 150px;
+}
+.enlacesbarra {
+    background: blue;
+    color: white;
+   
+
+}
+
+/* HAMBURGUESA  */
+@media (max-width: 600px) {
+.enlacesbarra{
+display: none;
+} 
+}
+@media (min-width: 601px) {
+.burguer {
+display: none;
+    } 
+}
+.imgburguer {
+    width: 50px;
+    height: 50px;
+}
+
+/* IMAGEN FONDO PRINCIPAL  */
+.imagenfondo {
+    background-image: url(./imagenes/chicolest.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* TEXTO  */    
+h1 {
+   font-size: 90px;
+   color: white;
+}
+
+h2 {
+    text-align: center;
+    color: black;
+}
+a {
+    text-decoration: none;
+}
+
+/* DISEÑO TABLA CURSOS  */
+
+table {
+  
+    width: 50%;
+    border-collapse: collapse;
+    display: flex;
+    justify-content: center;
+}
+.tabla1 {
+    display: flex;
+    justify-content: center;
+ }
+
+
+tr {
+    border-bottom: 1pt solid black;
+}
+
+/* DISEÑO CONTACTO  */
+
+h3 p {
+
+   text-align: center;
+   display: flex;
+   justify-content: center;
+
+}
+
+
+/* DISEÑO CONOCENOS  */
+
+.mentor {
+    width: 250px;
+    height: 250px;
+    border-radius: 90px;
+}
+.tablaimg {
+    display: flex;
+ }
+ .contenedorimg {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding-left: 2%;
+     padding-right:2% ;
+ }
+
+/* DISEÑO FORMULARIO "BOTON"  */
+
+.enlacesformulari {
+    background-color: crimson;
+    padding: 8px;
+    color: white;
+    text-decoration: none;
+    }
+
+
+ /* DISEÑO FORMULARIO FINAL  */   
+ 
+.formulario {
+    width:300px;
+	padding: 50px;
+	border-radius:10px;
+	margin:auto;
+	background-color:#ccc;
+}

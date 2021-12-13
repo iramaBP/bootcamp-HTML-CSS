@@ -14,4 +14,4 @@ CSS3
 # # Descripcion funcional :
 La web consta de 4 archivos index HTML ( cada uno de ellos para una sección de la página ) 
 y un solo archivo CSS que da estilo básico a todos ellos.
-Es una web publicitaria he imformativa con la que poder practicar y dar los primeros pasos de diseño y desarrollo web .   . 
+Es una web publicitaria he imformativa con la que poder practicar y dar los primeros pasos de diseño y desarrollo web .  
